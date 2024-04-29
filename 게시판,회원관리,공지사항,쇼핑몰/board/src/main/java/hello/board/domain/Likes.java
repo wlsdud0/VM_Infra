@@ -12,7 +12,7 @@ import lombok.Data;
 @Entity
 public class Likes {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	
 	@ManyToOne

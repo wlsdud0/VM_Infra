@@ -19,7 +19,7 @@ import lombok.Data;
 @Entity
 public class Member {
 	
-	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Id @GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	@NotBlank
 	@Column(unique = true)

@@ -15,7 +15,7 @@ import lombok.Data;
 @Entity
 public class AdminComment {
 
-	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Id @GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	private Long boardId;
 	private String userId;

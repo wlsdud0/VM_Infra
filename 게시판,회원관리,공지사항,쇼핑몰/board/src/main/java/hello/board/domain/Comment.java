@@ -15,7 +15,7 @@ import lombok.Data;
 @Data
 public class Comment {
 	
-	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Id @GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	private String userId;
 	private Long boardId;

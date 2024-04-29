@@ -37,6 +37,10 @@ dependencies {
 	implementation 'org.xerial:sqlite-jdbc:3.41.2.2'
 	implementation 'org.hibernate.orm:hibernate-community-dialects' // diarect
 
+	// mariadb
+	runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
+	implementation 'org.jetbrains:annotations:24.0.0'
+
 }
 
 tasks.named('test') {

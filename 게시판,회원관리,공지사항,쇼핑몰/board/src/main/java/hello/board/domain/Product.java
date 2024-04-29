@@ -19,7 +19,7 @@ import lombok.Data;
 @Data
 @Entity
 public class Product {
-	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Id @GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	@NotBlank
 	private String name;

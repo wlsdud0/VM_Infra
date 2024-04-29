@@ -10,7 +10,7 @@ import lombok.Data;
 @Data
 @Entity
 public class Cart {
-	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Id @GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	
 	@ManyToOne

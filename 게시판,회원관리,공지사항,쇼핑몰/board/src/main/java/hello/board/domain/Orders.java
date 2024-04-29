@@ -9,7 +9,7 @@ import lombok.Data;
 @Data
 @Entity
 public class Orders {
-	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Id @GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	private Long sellerId;
 	private Long memberId;

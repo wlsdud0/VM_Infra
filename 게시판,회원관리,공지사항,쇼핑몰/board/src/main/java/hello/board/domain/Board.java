@@ -20,7 +20,7 @@ import lombok.Data;
 @Entity
 public class Board {
 	
-	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Id @GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	@NotBlank(message = "제목을 작성해주세요.")
 	private String subject;

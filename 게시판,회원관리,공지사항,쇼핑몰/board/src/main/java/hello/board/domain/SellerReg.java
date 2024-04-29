@@ -9,7 +9,7 @@ import lombok.Data;
 @Data
 @Entity
 public class SellerReg {
-	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Id @GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	private Long memberId;
 	private String phone;
