@@ -17,6 +17,8 @@ k-Shied Jr에서 배운 인프라 구성을 토대로 VM 환경에서 [쇼핑몰
 - [2. was](./인프라-구성/1.%20dev_server/2.%20was.md)
 - [3. vsftp](./인프라-구성/1.%20dev_server/3.%20vsftp.md)
 - [4. mariaDB](./인프라-구성/1.%20dev_server/4.%20mariaDB.md)
+- [5. spring boot + mariaDB](./인프라-구성/1.%20dev_server/5.%20spring%20boot%20+%20mariaDB.md)
+- [6. 소스코드 이동](./인프라-구성/1.%20dev_server/6.%20소스코드%20이동.md)
 
 ## 인프라 구성 및 요구사항
 1. 웹 서비스 서버 
