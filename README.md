@@ -14,6 +14,9 @@ k-Shied Jr에서 배운 인프라 구성을 토대로 VM 환경에서 [쇼핑몰
 [0. 고정 IP 설정](./인프라-구성/0.%20(공통)고정IP설정.md)
 ### 개발 서버
 [1. apache2](./인프라-구성/1.%20dev_server/1.%20apache2.md)
+[2. was](./인프라-구성/1.%20dev_server/2.%20was.md)
+[3. vsftp](./인프라-구성/1.%20dev_server/3.%20vsftp.md)
+[4. mariaDB](./인프라-구성/1.%20dev_server/4.%20mariaDB.md)
 
 
 
