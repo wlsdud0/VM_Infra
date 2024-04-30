@@ -51,7 +51,11 @@ k-Shied Jr에서 배운 인프라 구성을 토대로 VM 환경에서 [쇼핑몰
    - DB 서버의 데이터를 덤프하여 저장
 
 ## Web Page
+### dev_server
 ![Web Page](./인프라-구성/img/execution_dev.png)
+### web_was
+![Web Page](./인프라-구성/img/execution_was.png)
+
 
 ## 시나리오
 ![시나리오](./인프라-구성/img/시나리오.jpg)
