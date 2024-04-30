@@ -11,14 +11,26 @@ k-Shied Jr에서 배운 인프라 구성을 토대로 VM 환경에서 [쇼핑몰
 
 ## 구축 과정
 ### 공통
-- [0. 고정 IP 설정](./인프라-구성/0.%20(공통)고정IP설정.md)
+- [고정 IP 설정](./인프라-구성/0.%20(공통)고정IP설정.md)
 ### 개발 서버
-- [1. apache2](./인프라-구성/1.%20dev_server/1.%20apache2.md)
-- [2. was](./인프라-구성/1.%20dev_server/2.%20was.md)
-- [3. vsftp](./인프라-구성/1.%20dev_server/3.%20vsftp.md)
-- [4. mariaDB](./인프라-구성/1.%20dev_server/4.%20mariaDB.md)
-- [5. spring boot + mariaDB](./인프라-구성/1.%20dev_server/5.%20spring%20boot%20+%20mariaDB.md)
-- [6. 프로젝트 실행](./인프라-구성/1.%20dev_server/6.%20프로젝트%20실행.md)
+- [apache2](./인프라-구성/1.%20dev_server/1.%20apache2.md)
+- [was](./인프라-구성/1.%20dev_server/2.%20was.md)
+- [vsftp](./인프라-구성/1.%20dev_server/3.%20vsftp.md)
+- [mariaDB](./인프라-구성/1.%20dev_server/4.%20mariaDB.md)
+- [spring boot + mariaDB](./인프라-구성/1.%20dev_server/5.%20spring%20boot%20+%20mariaDB.md)
+- [프로젝트 실행](./인프라-구성/1.%20dev_server/6.%20프로젝트%20실행.md)
+### DB 서버
+- [mariaDB](./인프라-구성/2.%20db_server/1.%20mariaDB.md)
+- [rsyslog](./인프라-구성/2.%20db_server/2.%20rsyslog%20설정.md)
+### web-was 서버
+- [apache2](./인프라-구성/3.%20web_was/1.%20apache2.md)
+- [was](./인프라-구성/3.%20web_was/2.%20was.md)
+- [vsftp](./인프라-구성/3.%20web_was/3.%20vsftp.md)
+### 로그 서버
+- [log_server](./인프라-구성/4.%20log_server/1.%20log_server.md)
+### DB 백업 서버
+- [db_backup_server](./인프라-구성/5.%20db_backup_server/1.%20db_backup_server.md)
+
 
 ## 인프라 구성 및 요구사항
 1. 웹 서비스 서버 
@@ -39,10 +51,10 @@ k-Shied Jr에서 배운 인프라 구성을 토대로 VM 환경에서 [쇼핑몰
    - DB 서버의 데이터를 덤프하여 저장
 
 ## 시나리오
-이미지
+![시나리오](./인프라-구성/img/시나리오.jpg)
 
 ## 구성도
-이미지
+![구성도](./인프라-구성/img/구성도.jpg)
 
 ## 실습 시 전제 조건
-이미지
+![실습 시 전제 조건](./인프라-구성/img/실습 시 전제조건.jpg)
