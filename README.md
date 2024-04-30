@@ -6,6 +6,8 @@ k-Shied Jr에서 배운 인프라 구성을 바탕으로 VM 환경에서 [쇼핑
 ### 구축 환경
 - VMware Fusion
 - Ubuntu 24.04
+- apache2
+- tomcat9
 - MariaDB
 - Spring Boot 3.0.2
 
