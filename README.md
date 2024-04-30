@@ -50,6 +50,9 @@ k-Shied Jr에서 배운 인프라 구성을 토대로 VM 환경에서 [쇼핑몰
 5. 백업 서버
    - DB 서버의 데이터를 덤프하여 저장
 
+## Web Page
+![Web Page](./인프라-구성/img/execution_dev.png)
+
 ## 시나리오
 ![시나리오](./인프라-구성/img/시나리오.jpg)
 
