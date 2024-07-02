@@ -1,7 +1,7 @@
 # Infra Composition
 
-## VM 환경에서 인프라 구성
-k-Shied Jr에서 배운 인프라 구성을 바탕으로 VM 환경에서 [쇼핑몰 프로젝트](https://github.com/wlsdud0/java-spring-project-v2)의 인프라를 구축했다.
+## VM에서 가상 인프라 구성
+k-Shied Jr에서 배운 인프라 구성을 바탕으로 VM에서 [쇼핑몰 프로젝트](https://github.com/wlsdud0/java-spring-project-v2)의 가상 인프라를 구축했다.
 
 ### 구축 환경
 - VMware Fusion
