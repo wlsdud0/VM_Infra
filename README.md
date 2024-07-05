@@ -1,14 +1,16 @@
-# Infra Composition
+# VM Infra
 
-## VM에서 가상 인프라 구성
-k-Shied Jr에서 배운 인프라 구성을 바탕으로 VM에서 [쇼핑몰 프로젝트](https://github.com/wlsdud0/java-spring-project-v2)의 가상 인프라를 구축했다.
+## 가상 인프라 구축
+원활한 웹 서비스 운영을 위해 가상화 기술을 활용하여 [쇼핑몰 프로젝트](https://github.com/wlsdud0/java-spring-project-v2) 인프라를 구성한 프로젝트입니다.
 
 ### 구축 환경
 - VMware Fusion
 - Ubuntu 24.04
+- Java 17
 - apache2
 - tomcat9
 - MariaDB
+- xinterd rsync
 - Spring Boot 3.0.2
 
 ## 구축 과정
