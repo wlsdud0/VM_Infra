@@ -36,7 +36,6 @@
 ### DB 백업 서버
 - [db_backup_server](./인프라-구성/5.%20db_backup_server/1.%20db_backup_server.md)
 
-
 ## 인프라 구성 및 요구사항
 1. 웹 서비스 서버 
    - 외부에서 웹 페이지 접속 시 서비스 제공 서버
