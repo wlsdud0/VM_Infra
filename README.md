@@ -10,6 +10,7 @@
 - apache2
 - tomcat9
 - MariaDB
+- Ubuntu Netplan
 - xinterd rsync
 - Spring Boot 3.0.2
 
