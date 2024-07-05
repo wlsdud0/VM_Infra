@@ -1,7 +1,7 @@
 # VM Infra
 
 ## 가상 인프라 구축
-원활한 웹 서비스 운영을 위해 가상화 기술을 활용하여 [쇼핑몰 프로젝트](https://github.com/wlsdud0/java-spring-project-v2) 인프라를 구성한 프로젝트입니다.
+원활한 웹 서비스 운영을 위해 가상화 기술을 활용하여 [온라인 쇼핑 플랫폼](https://github.com/wlsdud0/java-spring-project-v2) 인프라를 구성한 프로젝트입니다.
 
 ### 구축 환경
 - VMware Fusion
